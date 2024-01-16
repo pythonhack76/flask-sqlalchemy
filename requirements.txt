@@ -1,0 +1,29 @@
+# Commenti iniziali possono essere utilizzati per fornire informazioni aggiuntive
+# o istruzioni per l'uso del file requirements.txt.
+
+# Specifica il nome e la versione esatta di una libreria
+numpy==1.19.5
+
+# Specifica il nome della libreria senza una versione specifica (usa l'ultima versione stabile)
+pandas
+
+# Puoi anche specificare un intervallo di versioni
+matplotlib>=3.2.2,<4.0.0
+
+# Installa una libreria direttamente dal repository Git
+# git+https://github.com/utente/repo.git@branch_name
+# oppure da un commit specifico
+# git+https://github.com/utente/repo.git@commit_hash
+# oppure da un repository privato
+# git+ssh://git@github.com/utente/repo.git@branch_name
+#git+https://github.com/utente/repo.git@branch_name
+git+https://github.com/utente/repo.git@branch_name
+
+# Installa una libreria da un file tar.gz o zip
+# file:///percorso/alla/libreria/libreria-1.0.0.tar.gz
+
+# Specifica le dipendenze extras
+requests[security]
+
+# Specifica le dipendenze per un ambiente di sviluppo o di test
+dev-dependencies
