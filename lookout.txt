@@ -1,0 +1,2 @@
+#obviously it's a joke about config.py and default.config
+#SST 
